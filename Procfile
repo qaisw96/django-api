@@ -1,1 +1,1 @@
-web: gunicorn https://herokudjango6996.herokuapp.com.wsgi --log-file -
+web: gunicorn restfullApp.wsgi --log-file -
