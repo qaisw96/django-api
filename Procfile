@@ -1,1 +1,1 @@
-web: gunicorn mysite.wsgi --log-file -
+web: gunicorn https://herokudjango6996.herokuapp.com.wsgi --log-file -
