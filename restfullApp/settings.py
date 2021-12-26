@@ -158,5 +158,6 @@ CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOWED_ORIGINS = [
     'https://herokudjango6996.herokuapp.com',
     'https://upbeat-heisenberg-c6d15f.netlify.app',
+    'https://herokudjango6996.herokuapp.com/api/songs',
 ] # If this is used, then not need to use `CORS_ALLOW_ALL_ORIGINS = True`
 
