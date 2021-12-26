@@ -29,7 +29,23 @@ SECRET_KEY = 'django-insecure-a&z__%5#2--%3m03#su7y&g8)3-1%07-6wfhv^3#0!-n#o+*71
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
-CORS_ORIGIN_ALLOW_ALL = True
+
+CORS_ALLOWED_ORIGINS = [
+    "https://upbeat-heisenberg-c6d15f.netlify.app",
+]
+
+CSRF_TRUSTED_ORIGINS = [
+   "https://upbeat-heisenberg-c6d15f.netlify.app",
+]
+
+CORS_ALLOW_METHODS = [
+    "DELETE",
+    "GET",
+    "OPTIONS",
+    "PATCH",
+    "POST",
+    "PUT",
+]
 
 # Application definition
 
