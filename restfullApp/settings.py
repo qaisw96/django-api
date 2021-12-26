@@ -155,5 +155,6 @@ DATABASES['default'].update(prod_db)
 
 CORS_ORIGIN_WHITELIST = [
     'http://localhost:8000',
+    'https://herokudjango6996.herokuapp.com',
     'https://upbeat-heisenberg-c6d15f.netlify.app',
 ]
