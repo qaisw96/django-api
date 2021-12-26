@@ -35,8 +35,8 @@ CORS_ALLOWED_ORIGINS = [
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    'www.upbeat-heisenberg-c6d15f.netlify.app',
-
+    'https://upbeat-heisenberg-c6d15f.netlify.app',
+]
 
 CORS_ALLOW_CREDENTIALS = True
 
